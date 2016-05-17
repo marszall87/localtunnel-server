@@ -12,5 +12,5 @@ RUN apk add --update make git g++ python && \
 
 ADD . /app
 
-ENV NODE_ENV production
+ENV NODE_ENV development
 ENTRYPOINT ["bin/server"]
